@@ -99,7 +99,16 @@ p{
 	text-align:center;
 	background:url(../img/pw_maze_black_2X.jpg) left top repeat;
 	padding:280px 0;
+  min-width: 100vw;
+  min-height: 100vh;
 }
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .logo{
 	width:500px;
 	margin:0 auto 35px;
